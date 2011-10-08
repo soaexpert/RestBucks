@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.restbucks"
+		module="hypermedia"
+		revision="working@Hanneli-Tavantes-MacBook-Pro.local"
+		conf="default"
+		confs="default"
+		date="20110518203731"/>
+	<dependencies>
+		<module organisation="asm" name="asm-all" >
+			<revision name="3.1" status="release" pubdate="20080120083142" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="25">
+				<metadata-artifact status="successful" details="" size="307" time="2466" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/asm/asm-all/ivy-3.1.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/asm/asm-all/ivy-3.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/asm/asm-all/3.1/asm-all-3.1.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+					<artifact name="asm-all" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="336609" time="22402" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/asm/asm-all/sources/asm-all-3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/asm/asm-all/3.1/asm-all-3.1-sources.jar"/>
+					</artifact>
+					<artifact name="asm-all" type="jar" ext="jar" status="successful" details="" size="200050" time="9475" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/asm/asm-all/jars/asm-all-3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/asm/asm-all/3.1/asm-all-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time" >
+			<revision name="1.6" status="release" pubdate="20081201201520" resolver="ibiblio" artresolver="ibiblio" homepage="http://joda-time.sourceforge.net" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="24">
+				<license name="Apache 2" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="successful" details="" size="4421" time="2488" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/joda-time/joda-time/ivy-1.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/joda-time/joda-time/ivy-1.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6/joda-time-1.6.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="534827" time="38418" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/joda-time/joda-time/jars/joda-time-1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6/joda-time-1.6.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1235311" time="104346" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/joda-time/joda-time/javadocs/joda-time-1.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6/joda-time-1.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="476722" time="39319" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/joda-time/joda-time/sources/joda-time-1.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/1.6/joda-time-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-client" >
+			<revision name="1.0" status="release" pubdate="20100520052425" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="23">
+				<metadata-artifact status="successful" details="" size="3326" time="1013" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-client/ivy-1.0.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-client/ivy-1.0.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/jersey/jersey-client/1.0/jersey-client-1.0.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+					<artifact name="jersey-client" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="55045" time="1833" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-client/sources/jersey-client-1.0-sources.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-client/1.0/jersey-client-1.0-sources.jar"/>
+					</artifact>
+					<artifact name="jersey-client" type="jar" ext="jar" status="successful" details="" size="54097" time="1954" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-client/jars/jersey-client-1.0.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-client/1.0/jersey-client-1.0.jar"/>
+					</artifact>
+					<artifact name="jersey-client" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="184858" time="3426" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-client/javadocs/jersey-client-1.0-javadoc.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-client/1.0/jersey-client-1.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-server" >
+			<revision name="1.0" status="release" pubdate="20100520051810" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="4">
+				<metadata-artifact status="successful" details="" size="6400" time="1308" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-server/ivy-1.0.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-server/ivy-1.0.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/jersey/jersey-server/1.0/jersey-server-1.0.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+					<artifact name="jersey-server" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="409304" time="9528" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-server/javadocs/jersey-server-1.0-javadoc.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-server/1.0/jersey-server-1.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="jersey-server" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="400409" time="9927" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-server/sources/jersey-server-1.0-sources.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-server/1.0/jersey-server-1.0-sources.jar"/>
+					</artifact>
+					<artifact name="jersey-server" type="jar" ext="jar" status="successful" details="" size="399671" time="5365" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-server/jars/jersey-server-1.0.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-server/1.0/jersey-server-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.net.httpserver" name="http" >
+			<revision name="20070405" status="release" pubdate="20100520032816" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="" downloaded="true" searched="true" default="false" conf="provided(*), compile, master(*), runtime, provided, compile(*), runtime(*), master" position="22">
+				<metadata-artifact status="successful" details="" size="286" time="807" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.net.httpserver/http/ivy-20070405.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.net.httpserver/http/ivy-20070405.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/net/httpserver/http/20070405/http-20070405.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="20070405" rev-constraint-default="20070405" rev-constraint-dynamic="20070405" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="http" type="jar" ext="jar" status="successful" details="" size="81798" time="1528" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.net.httpserver/http/jars/http-20070405.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/net/httpserver/http/20070405/http-20070405.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.grizzly" name="grizzly-servlet-webserver" >
+			<revision name="1.8.6" status="release" pubdate="20100520025754" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="runtime, runtime(*), javadoc, master, sources, system, default, provided(*), compile, optional, master(*), compile(*), provided, *" position="15">
+				<metadata-artifact status="successful" details="" size="3033" time="1017" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-servlet-webserver/ivy-1.8.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-servlet-webserver/ivy-1.8.6.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-servlet-webserver/1.8.6/grizzly-servlet-webserver-1.8.6.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="grizzly-servlet-webserver" type="bundle" ext="jar" status="successful" details="" size="840516" time="9416" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-servlet-webserver/bundles/grizzly-servlet-webserver-1.8.6.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-servlet-webserver/1.8.6/grizzly-servlet-webserver-1.8.6.jar"/>
+					</artifact>
+					<artifact name="grizzly-servlet-webserver" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="3003" time="1186" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-servlet-webserver/sources/grizzly-servlet-webserver-1.8.6-sources.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-servlet-webserver/1.8.6/grizzly-servlet-webserver-1.8.6-sources.jar"/>
+					</artifact>
+					<artifact name="grizzly-servlet-webserver" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="24513" time="1332" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-servlet-webserver/javadocs/grizzly-servlet-webserver-1.8.6-javadoc.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-servlet-webserver/1.8.6/grizzly-servlet-webserver-1.8.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" status="release" pubdate="20100520025743" resolver="java-net-maven2" artresolver="java-net-maven2" evicted="latest-revision" evicted-reason="" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="-1">
+				<metadata-artifact status="successful" details="" size="3033" time="2363" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-servlet-webserver/ivy-1.8.3.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-servlet-webserver/ivy-1.8.3.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-servlet-webserver/1.8.3/grizzly-servlet-webserver-1.8.3.pom"/>
+				<evicted-by rev="1.8.6"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.grizzly" name="grizzly-http-servlet" >
+			<revision name="1.8.6" status="release" pubdate="20100520031612" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<metadata-artifact status="successful" details="" size="2021" time="1006" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-servlet/ivy-1.8.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-servlet/ivy-1.8.6.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http-servlet/1.8.6/grizzly-http-servlet-1.8.6.pom"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="grizzly-http-servlet" type="bundle" ext="jar" status="successful" details="" size="38906" time="1632" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-servlet/bundles/grizzly-http-servlet-1.8.6.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http-servlet/1.8.6/grizzly-http-servlet-1.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" status="release" pubdate="20100520031609" resolver="java-net-maven2" artresolver="java-net-maven2" evicted="latest-revision" evicted-reason="" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="successful" details="" size="2021" time="1112" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-servlet/ivy-1.8.3.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-servlet/ivy-1.8.3.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http-servlet/1.8.3/grizzly-http-servlet-1.8.3.pom"/>
+				<evicted-by rev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.grizzly" name="grizzly-http" >
+			<revision name="1.8.6" status="release" pubdate="20100520024409" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="16">
+				<metadata-artifact status="successful" details="" size="2381" time="1011" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http/ivy-1.8.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http/ivy-1.8.6.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http/1.8.6/grizzly-http-1.8.6.pom"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http-servlet" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http-servlet" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="grizzly-http" type="bundle" ext="jar" status="successful" details="" size="143805" time="1764" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http/bundles/grizzly-http-1.8.6.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http/1.8.6/grizzly-http-1.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" status="release" pubdate="20100520024403" resolver="java-net-maven2" artresolver="java-net-maven2" evicted="latest-revision" evicted-reason="" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="successful" details="" size="2802" time="1108" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http/ivy-1.8.3.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http/ivy-1.8.3.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http/1.8.3/grizzly-http-1.8.3.pom"/>
+				<evicted-by rev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http-servlet" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.grizzly" name="grizzly-portunif" >
+			<revision name="1.8.6" status="release" pubdate="20100520023453" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+				<metadata-artifact status="successful" details="" size="1255" time="1003" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-portunif/ivy-1.8.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-portunif/ivy-1.8.6.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-portunif/1.8.6/grizzly-portunif-1.8.6.pom"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="grizzly-portunif" type="jar" ext="jar" status="successful" details="" size="16490" time="1527" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-portunif/jars/grizzly-portunif-1.8.6.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-portunif/1.8.6/grizzly-portunif-1.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" status="release" pubdate="20100520023451" resolver="java-net-maven2" artresolver="java-net-maven2" evicted="latest-revision" evicted-reason="" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="successful" details="" size="1255" time="2340" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-portunif/ivy-1.8.3.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-portunif/ivy-1.8.3.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-portunif/1.8.3/grizzly-portunif-1.8.3.pom"/>
+				<evicted-by rev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.grizzly" name="grizzly-rcm" >
+			<revision name="1.8.6" status="release" pubdate="20100520021628" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="19">
+				<metadata-artifact status="successful" details="" size="977" time="1727" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-rcm/ivy-1.8.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-rcm/ivy-1.8.6.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-rcm/1.8.6/grizzly-rcm-1.8.6.pom"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="grizzly-rcm" type="jar" ext="jar" status="successful" details="" size="8017" time="1388" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-rcm/jars/grizzly-rcm-1.8.6.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-rcm/1.8.6/grizzly-rcm-1.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" status="release" pubdate="20100520021625" resolver="java-net-maven2" artresolver="java-net-maven2" evicted="latest-revision" evicted-reason="" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="successful" details="" size="977" time="1133" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-rcm/ivy-1.8.3.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-rcm/ivy-1.8.3.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-rcm/1.8.3/grizzly-rcm-1.8.3.pom"/>
+				<evicted-by rev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.grizzly" name="grizzly-http-utils" >
+			<revision name="1.8.6" status="release" pubdate="20100520024236" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="18">
+				<metadata-artifact status="successful" details="" size="1668" time="3406" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-utils/ivy-1.8.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-utils/ivy-1.8.6.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http-utils/1.8.6/grizzly-http-utils-1.8.6.pom"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="grizzly-http-utils" type="bundle" ext="jar" status="successful" details="" size="271720" time="5884" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-utils/bundles/grizzly-http-utils-1.8.6.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http-utils/1.8.6/grizzly-http-utils-1.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" status="release" pubdate="20100520024229" resolver="java-net-maven2" artresolver="java-net-maven2" evicted="latest-revision" evicted-reason="" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="successful" details="" size="1668" time="2256" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-utils/ivy-1.8.3.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-http-utils/ivy-1.8.3.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-http-utils/1.8.3/grizzly-http-utils-1.8.3.pom"/>
+				<evicted-by rev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.grizzly" name="grizzly-framework" >
+			<revision name="1.8.6" status="release" pubdate="20100520031513" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<metadata-artifact status="successful" details="" size="2004" time="1006" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-framework/ivy-1.8.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-framework/ivy-1.8.6.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-framework/1.8.6/grizzly-framework-1.8.6.pom"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-rcm" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-portunif" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-rcm" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-portunif" conf="compile, runtime" rev="1.8.6" rev-constraint-default="1.8.6" rev-constraint-dynamic="1.8.6" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="grizzly-framework" type="bundle" ext="jar" status="successful" details="" size="265117" time="3225" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-framework/bundles/grizzly-framework-1.8.6.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-framework/1.8.6/grizzly-framework-1.8.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.8.3" status="release" pubdate="20100520031501" resolver="java-net-maven2" artresolver="java-net-maven2" evicted="latest-revision" evicted-reason="" homepage="https://grizzly.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="successful" details="" size="2004" time="1332" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-framework/ivy-1.8.3.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.grizzly/grizzly-framework/ivy-1.8.3.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/grizzly/grizzly-framework/1.8.3/grizzly-framework-1.8.3.pom"/>
+				<evicted-by rev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-rcm" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-portunif" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http" conf="compile, runtime" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="1.8.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ant" name="ant" >
+			<revision name="1.6.5" status="release" pubdate="20101015094825" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="provided(*), compile, master(*), runtime, provided, compile(*), runtime(*), master" position="14">
+				<metadata-artifact status="successful" details="" size="861" time="2077" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/ant/ant/ivy-1.6.5.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/ant/ant/ivy-1.6.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ant/ant/1.6.5/ant-1.6.5.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="successful" details="" size="1034049" time="65419" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/ant/ant/jars/ant-1.6.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ant/ant/1.6.5/ant-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="jsp-api" >
+			<revision name="2.0" status="release" pubdate="20051108195812" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="provided(*), compile, master(*), runtime, provided, compile(*), runtime(*), master" position="13">
+				<metadata-artifact status="successful" details="" size="362" time="2062" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.servlet/jsp-api/ivy-2.0.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.servlet/jsp-api/ivy-2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/servlet/jsp-api/2.0/jsp-api-2.0.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsp-api" type="jar" ext="jar" status="successful" details="" size="50493" time="4416" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.servlet/jsp-api/jars/jsp-api-2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.persistence" name="persistence-api" >
+			<revision name="1.0.2" status="release" pubdate="20110518203932" resolver="java-net-maven1" artresolver="java-net-maven1" downloaded="false" searched="true" default="true" conf="default, provided(*), master(*), compile(*), runtime(*)" position="12">
+				<metadata-artifact status="no" details="" size="0" time="0" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.persistence/persistence-api/ivy-1.0.2.xml" searched="true"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="persistence-api" type="jar" ext="jar" status="successful" details="" size="53842" time="4104" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.2.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/1/javax.persistence/jars/persistence-api-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm" >
+			<revision name="3.1" status="release" pubdate="20080120083126" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<metadata-artifact status="successful" details="" size="278" time="2109" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/asm/asm/ivy-3.1.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/asm/asm/ivy-3.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="successful" details="" size="43033" time="3131" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/asm/asm/jars/asm-3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-core" >
+			<revision name="1.0" status="release" pubdate="20100520043911" resolver="java-net-maven2" artresolver="java-net-maven2" homepage="" downloaded="true" searched="true" default="false" conf="*, runtime, runtime(*), javadoc, master, sources, system, default, compile, optional, master(*), compile(*), provided" position="5">
+				<metadata-artifact status="successful" details="" size="7258" time="1115" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-core/ivy-1.0.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-core/ivy-1.0.xml.original" origin-is-local="false" origin-location="http://download.java.net/maven/2/com/sun/jersey/jersey-core/1.0/jersey-core-1.0.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-client" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jersey-core" type="jar" ext="jar" status="successful" details="" size="248172" time="5572" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-core/jars/jersey-core-1.0.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-core/1.0/jersey-core-1.0.jar"/>
+					</artifact>
+					<artifact name="jersey-core" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="221101" time="4565" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-core/sources/jersey-core-1.0-sources.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-core/1.0/jersey-core-1.0-sources.jar"/>
+					</artifact>
+					<artifact name="jersey-core" type="javadoc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="252249" time="3623" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/com.sun.jersey/jersey-core/javadocs/jersey-core-1.0-javadoc.jar">
+						<origin-location is-local="false" location="http://download.java.net/maven/2/com/sun/jersey/jersey-core/1.0/jersey-core-1.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api" >
+			<revision name="2.1" status="release" pubdate="20071001045213" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="provided(*), compile, master(*), runtime, provided, compile(*), runtime(*), master" position="9">
+				<metadata-artifact status="successful" details="" size="486" time="2614" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.xml.bind/jaxb-api/ivy-2.1.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.xml.bind/jaxb-api/ivy-2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.0"/>
+				<caller organisation="com.sun.jersey" name="jersey-core" conf="provided" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="jar" ext="jar" status="successful" details="" size="89967" time="4686" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.stream" name="stax-api" >
+			<revision name="1.0-2" status="release" pubdate="20081004145903" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="GNU General Public Library" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="http://www.sun.com/cddl/cddl.html"/>
+				<metadata-artifact status="successful" details="" size="962" time="2075" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.xml.stream/stax-api/ivy-1.0-2.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.xml.stream/stax-api/ivy-1.0-2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="2.1"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="successful" details="" size="23346" time="2930" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.xml.stream/stax-api/jars/stax-api-1.0-2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.mail" name="mail" >
+			<revision name="1.4" status="release" pubdate="20060502205606" resolver="ibiblio" artresolver="ibiblio" homepage="https://glassfish.dev.java.net/javaee5/mail/" downloaded="true" searched="true" default="false" conf="provided(*), compile, master(*), runtime, provided, compile(*), runtime(*), master" position="7">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="993" time="2356" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.mail/mail/ivy-1.4.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.mail/mail/ivy-1.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0"/>
+				<caller organisation="com.sun.jersey" name="jersey-core" conf="provided" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mail" type="jar" ext="jar" status="successful" details="" size="388864" time="12254" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.mail/mail/jars/mail-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation" >
+			<revision name="1.1" status="release" pubdate="20060502204829" resolver="ibiblio" artresolver="ibiblio" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="1058" time="2254" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.activation/activation/ivy-1.1.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.activation/activation/ivy-1.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.mail" name="mail" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.4"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.1"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="successful" details="" size="62983" time="5349" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.activation/activation/jars/activation-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.ws.rs" name="jsr311-api" >
+			<revision name="1.0" status="release" pubdate="20081007073435" resolver="ibiblio" artresolver="ibiblio" homepage="https://jsr311.dev.java.net" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<license name="
+                CDDL License
+            " url="http://www.opensource.org/licenses/cddl1.php"/>
+				<metadata-artifact status="successful" details="" size="5574" time="4429" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.ws.rs/jsr311-api/ivy-1.0.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.ws.rs/jsr311-api/ivy-1.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-core" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsr311-api" type="jar" ext="jar" status="successful" details="" size="44263" time="3222" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.ws.rs/jsr311-api/jars/jsr311-api-1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/ws/rs/jsr311-api/1.0/jsr311-api-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api" >
+			<revision name="2.5" status="release" pubdate="20060717080957" resolver="ibiblio" artresolver="ibiblio" homepage="" downloaded="true" searched="true" default="false" conf="provided(*), compile, master(*), provided, runtime, compile(*), runtime(*), master" position="3">
+				<metadata-artifact status="successful" details="" size="157" time="2766" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.servlet/servlet-api/ivy-2.5.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.servlet/servlet-api/ivy-2.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http-servlet" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.8.6"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.8.6"/>
+				<caller organisation="javax.servlet" name="jsp-api" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.0"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-http-servlet" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.8.3"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="provided" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0"/>
+				<caller organisation="com.sun.grizzly" name="grizzly-servlet-webserver" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.8.3"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="successful" details="" size="105112" time="6070" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.5"/>
+				<caller organisation="javax.servlet" name="jsp-api" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-all" >
+			<revision name="1.2-dev1" status="release" pubdate="20081014104203" resolver="guicey-fruit" artresolver="guicey-fruit" homepage="" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="2">
+				<metadata-artifact status="successful" details="" size="201" time="1026" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/org.hamcrest/hamcrest-all/ivy-1.2-dev1.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/org.hamcrest/hamcrest-all/ivy-1.2-dev1.xml.original" origin-is-local="false" origin-location="http://guiceyfruit.googlecode.com/svn/repo/releases/org/hamcrest/hamcrest-all/1.2-dev1/hamcrest-all-1.2-dev1.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.2-dev1" rev-constraint-default="1.2-dev1" rev-constraint-dynamic="1.2-dev1" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+					<artifact name="hamcrest-all" type="jar" ext="jar" status="successful" details="" size="265873" time="5564" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/org.hamcrest/hamcrest-all/jars/hamcrest-all-1.2-dev1.jar">
+						<origin-location is-local="false" location="http://guiceyfruit.googlecode.com/svn/repo/releases/org/hamcrest/hamcrest-all/1.2-dev1/hamcrest-all-1.2-dev1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-all" >
+			<revision name="1.7" status="release" pubdate="20090129051718" resolver="ibiblio" artresolver="ibiblio" homepage="http://www.mockito.org" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="1">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="successful" details="" size="856" time="2869" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/org.mockito/mockito-all/ivy-1.7.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/org.mockito/mockito-all/ivy-1.7.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mockito/mockito-all/1.7/mockito-all-1.7.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+					<artifact name="mockito-all" type="jar" ext="jar" status="successful" details="" size="965673" time="40868" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/org.mockito/mockito-all/jars/mockito-all-1.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mockito/mockito-all/1.7/mockito-all-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit" >
+			<revision name="4.6" status="release" pubdate="20090509163806" resolver="ibiblio" artresolver="ibiblio" homepage="http://junit.org" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, *, provided, runtime, javadoc, sources, master" position="0">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1206" time="2677" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/junit/junit/ivy-4.6.xml" searched="true" original-local-location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/junit/junit/ivy-4.6.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/junit/junit/4.6/junit-4.6.pom"/>
+				<caller organisation="com.restbucks" name="hypermedia" conf="default" rev="4.6" rev-constraint-default="4.6" rev-constraint-dynamic="4.6" callerrev="working@Hanneli-Tavantes-MacBook-Pro.local"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="218226" time="19072" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/junit/junit/jars/junit-4.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/junit/junit/4.6/junit-4.6.jar"/>
+					</artifact>
+					<artifact name="junit" type="source" ext="jar" extra-classifier="sources" status="successful" details="" size="116587" time="8116" location="/Users/hannelitavante/Downloads/Chapter5-JavaClientService/RestbucksOrderingClient/.ivy/cache/junit/junit/sources/junit-4.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/junit/junit/4.6/junit-4.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
